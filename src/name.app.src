@@ -1,0 +1,13 @@
+{application, {{NAME}},
+ [
+  {description,
+   "An awesome library called {{NAME}}"},
+  {vsn, "0.1"},
+  {applications,
+    [kernel,
+     stdlib,
+     lager
+    ]},
+  {modules, []}
+ ]
+}.
